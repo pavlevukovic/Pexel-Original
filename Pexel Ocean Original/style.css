@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+/*Navigation*/
+.logo {
+    padding: 10px;
+    margin-left: 10px;
+}
+.navbar {
+    margin-bottom: 0px!important;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-nav>li>a {
+    padding-top: 20px!important;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 17px;
+    font-family: "Open Sans Light";
+    color: #231c40;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent!important;
+    font-family: "Open Sans SemiBold";
+}
+.navbar_custom {
+    background-color: #f1f2f6!important;
+    border: 0px!important;
+}
+.custom_right_navbar {
+    margin: 10px!important;
+}
+.contact_btn {
+    background-color: transparent!important;
+    padding: 6px 20px!important;
+    border-radius: 18px!important;
+    border: 2px solid #b0bec5!important;
+    font-size: 17px;
+    font-family: "Open Sans SemiBold";
+}
+.contact_btn:hover {
+    background-color: #2962ff!important;
+    border: 2px solid #2962ff!important;
+    color: #fff!important;
+}
+.contact_btn:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+/*Header*/
+.header {
+    background-color: #f1f2f6;
+    width: 100%;
+    text-align: center;
+}
+.header_title {
+    font-family: "Open Sans Light";
+    font-size: 36px;
+    color: #231c40;
+    margin-top: 100px;
+}
+.header_title span {
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+.header_btn, .header_btn:hover, .header_btn:focus, .header_btn:active {
+    margin-top: 30px;
+    height: 50px;
+    background-color: #2962ff!important;
+    padding: 6px 20px!important;
+    border-radius: 26px!important;
+    font-size: 17px!important;
+    font-family: "Open Sans";
+    color: #fff!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.img_mobile {
+    margin: auto;
+    margin-top: 70px!important;
+}
+/*Services*/
+.services {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.divider {
+    width: 30px;
+    height: 3px;
+    background-color: #2962ff;
+    margin: auto;
+}
+.subtitle {
+    font-family: "Open Sans";
+    font-size: 24px;
+    color: #231c40;
+    margin-top: 15px!important;
+}
+.cards_position {
+    margin-top: 45px;
+}
+.card {
+    width: 100%;
+    height: 250px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+.card img {
+    margin-top: 80px;
+}
+.card_desc {
+    font-family: "Open Sans";
+    font-size: 19px;
+    color: #231c40;
+    margin-top: 15px!important;
+}
+/*OurTeam*/
+.our_team {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.section_desc {
+    font-family: "Open Sans";
+    font-size: 17px;
+    color: #546e7a;
+    margin-top: 15px!important;
+}
+.user_name {
+    font-family: "Open Sans";
+    font-size: 19px;
+    color: #231c40;
+    margin-top: 15px!important;
+}
+.user_desc {
+    font-family: "Open Sans";
+    font-size: 17px;
+    color: #546e7a;
+}
+/*Contact_us*/
+.contact_us {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.contact_card {
+    width: 100%;
+    height: 310px;
+    background-color: #2962ff;
+    border-radius: 6px;
+    padding: 60px;
+}
+.contact-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(255,255,255,0.30);
+    border-radius: 0 !important;
+    color: #fff;
+    padding-left: 0;
+    transition: all .2s ease-out;
+    font-family: "Open Sans";
+    display: block;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.contact-input:hover, .contact-input:focus, .contact-input:active {
+    border-bottom: 1px solid #fff;
+    transition: all .2s ease-out;
+}
+.contact-input::placeholder {
+    color: #fff;
+    font-family: "Open Sans";
+}
+.contactUs_btn, .contactUs_btn:hover, .contactUs_btn:focus, .contactUs_btn:active {
+    margin-top: 50px;
+    height: 50px;
+    background-color: #ffffff!important;
+    padding: 6px 20px!important;
+    border-radius: 26px!important;
+    font-size: 17px!important;
+    font-family: "Open Sans";
+    color: #2962ff!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
+/*Our_works*/
+.our_works {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.work_cards_position {
+    margin-top: 15px;
+}
+.works_cards {
+    width: 100%;
+    height: 250px;
+    background-color: #e0e0e0;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.works_cards:hover .works_cards_hover {
+    display: block!important;
+}
+.works_cards_hover {
+    display: none;
+    width: 100%;
+    height: 250px;
+    background-color: #2962ff;
+    border-radius: 6px;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: left!important;
+}
+.works_card_title {
+    font-family: "Open Sans";
+    font-size: 19px;
+    color: #ffffff;
+}
+.works_card_title span {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffffff;
+}
+.work_desc {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #8cabff;
+    margin-top: 25px;
+}
+.work_desc span {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #e0e0e0;
+}
+.icon_txt_position {
+    bottom: -25px!important;
+    position: relative;
+}
+.work_icons {
+    opacity: 0.5;
+}
+.icon_title {
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #ffffff;
+}
+.txt_container {
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    text-align: center;
+    width: 84%;
+}
+/*Partners*/
+.partners {
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.brands {
+    font-size: 60px;
+    color: #bdbdbd;
+}
+.partners_position {
+    margin-top: 30px;
+}
+/*Estimate_projects*/
+.estimate_projects {
+    background-color: #2962ff;
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.estimate_title {
+    font-family: "Open Sans Light";
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.estimate_title span {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+}
+.estimate_btn, .estimate_btn:hover, .estimate_btn:focus, .estimate_btn:active {
+    margin-top: 30px;
+    height: 50px;
+    background-color: #ffffff!important;
+    padding: 6px 20px!important;
+    border-radius: 26px!important;
+    font-size: 17px!important;
+    font-family: "Open Sans";
+    color: #231c40!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
+.footer_menu_pos {
+    margin-top: 80px;
+    border-top: 1px solid rgba(255,255,255,0.40);
+    margin-bottom: 40px;
+}
+.footer_menu_pos p {
+    font-family: "Open Sans Light";
+    font-size: 17px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: -15px;
+    margin-top: 30px;
+}
+.footer-menu {
+    float: right!important;
+    margin-right: -25px!important;
+}
+.footer-menu>li>a {
+    padding-top: 30px!important;
+}
+.footer-menu>li>a {
+    font-size: 17px;
+    font-family: "Open Sans Light";
+    color: #ffffff;
+}
+.footer-menu>.active>a {
+    background-color: transparent!important;
+    font-family: "Open Sans SemiBold";
+}
+.nav>li>a:hover {
+    background-color: transparent!important;
+    /*font-family: "Open Sans Light";*/
+}
+
+/*Media Querys*/
+
+/*Max width 767px - Mobile and Tablets*/
+@media only screen and (max-width: 767px) {
+    .custom_right_navbar {
+        display: block!important;
+    }
+}
+/*Max width 777px - Mobile and Tablets*/
+@media only screen and (max-width: 777px) {
+    .footer-menu {
+        display: inline-flex!important;
+        float: none!important;
+    }
+    .footer_menu_pos p {
+        text-align: center!important;
+    }
+}
+/*Max width 991px - Small Desktop*/
+@media only screen and (max-width: 991px) {
+    .card {
+        margin-top: 20px!important;
+    }
+}
